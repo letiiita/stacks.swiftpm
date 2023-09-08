@@ -4,17 +4,36 @@ struct ContentView: View {
     var body: some View {
         VStack{
             Text("0")
+                .bold()
+                .font(.system(size:52))
                 .foregroundColor(.white)
             
             HStack{
+                
                 Text("AC")
+                    .padding()
+                    .font(.system(size: 32))
+                    .background(.orange)
                     .foregroundColor(.white)
+                    .cornerRadius(35)
                 Text("+/-")
+                    .padding()
+                    .font(.system(size: 32))
+                    .background(.orange)
                     .foregroundColor(.white)
+                    .cornerRadius(35)
                 Text("%")
+                    .padding()
+                    .font(.system(size: 32))
+                    .background(.orange)
                     .foregroundColor(.white)
+                    .cornerRadius(35)
                 Text("÷")
+                    .padding()
+                    .font(.system(size: 32))
+                    .background(.gray)
                     .foregroundColor(.white)
+                    .cornerRadius(35)
             }
             HStack{
                 Text("7")
